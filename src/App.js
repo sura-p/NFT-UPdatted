@@ -26,10 +26,10 @@ import Art from './Components/pages/Art';
     <Route path='/create' element = {<Create/>}/>
     <Route path='/categories' element={<Categories/>}/>
     <Route path='/MyAsset' element={<MYNFTS/>}/>
-    <Route path='/art' element={<Art/>}/>
-    <Route path='/photography' element={<Categories filter="photography" heading="Photography Collection"/>}/>
-    <Route path='/sport' element={<Categories filter="sport" heading="Sport Collection"/>}/>
-    <Route path='/music' element={<Categories filter="music" heading="Music Collection"/>}/>
+    <Route path='/art' element={<Art filter="art" heading="Art Collection"/>}/>
+    <Route path='/photography' element={<Art filter="photography" heading="Photography Collection"/>}/>
+    <Route path='/sport' element={<Art filter="sport" heading="Sport Collection"/>}/>
+    <Route path='/music' element={<Art filter="music" heading="Music Collection"/>}/>
     <Route path='/payment' element={<ModalBox/>}/>
     </Routes>
     

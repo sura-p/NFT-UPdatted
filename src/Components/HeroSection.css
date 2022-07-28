@@ -62,7 +62,7 @@ video {
   .hero-container > h2{
     color: #fff;
     font-size: 50px;
-    margin-top: -100px;
+    margin-top: 0px;
   }
   
   .hero-container > p {
@@ -86,16 +86,36 @@ video {
   }
   
   @media screen and (max-width: 960px) {
-    .hero-container > h1 {
+    .hero-container > h2 {
       font-size: 70px;
-      margin-top: -150px;
+      margin-top: 0px;
+    }
+    .hero-container{
+      top :20px;
+    }
+
+    .hero-container > p {
+      font-size: 30px;
+    }
+
+    .btn-mobile {
+      display: none;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .hero-container > h1 {
+    .hero-container > h2 {
       font-size: 50px;
-      margin-top: -100px;
+      margin-top: 0px;
+      
+    }
+    .hero-container{
+      top :20px;
     }
   
     .hero-container > p {

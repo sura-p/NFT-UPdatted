@@ -66,7 +66,7 @@ function Navbar(props) {
                 </Link>
             </li>
         </ul>
-        {btton && <Button buttonStyle ='btn--outline'>Wallet</Button>}
+        {btton && <Button buttonStyle ='btn--outline'>Connect Wallet</Button>}
         
        </div> 
     </nav>

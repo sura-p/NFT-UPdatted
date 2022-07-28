@@ -9,12 +9,13 @@
     border-radius: 2px;
     outline: none;
     border: none;
+    margin-bottom: 16px;
     cursor: pointer;
 }
 
 .btn--primary{
     background-color: var(--primary);
-    color: #d1c5c5;
+    color: #f7f2f2;
     border: 1px solid var(--primary);
 }
 
@@ -29,8 +30,8 @@
 
 .btn--medium
 {
-    padding: 8px 20px; 
-    font-size: 20px;
+    padding: 5px 12px; 
+    font-size: 16px;
    
 }
 
@@ -43,6 +44,6 @@
 
 .btn--medium:hover .btn--large:hover {
     background: #fff;
-    color: #242424;
+    color: #fbfafa;
     transition: all 0.3s ease-out;;
 }

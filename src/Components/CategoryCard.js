@@ -12,14 +12,14 @@ function CategoryCard() {
               src='https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'
               text='Art'
               label='Adventure'
-              path='/Art'
+              path='/art'
             
             />
             <CategoryItems 
               src='https://thumbs.dreamstime.com/z/bee-flower-27533578.jpg'
               text='Photography'
               label='Luxury'
-              path='/Photography'
+              path='/photography'
             />
           </ul>
           <ul className='category__items'>
@@ -27,14 +27,14 @@ function CategoryCard() {
               src='https://thumbs.dreamstime.com/z/landscape-nature-mountan-alps-rainbow-76824355.jpg'
               text='Music'
               label='Mystery'
-              path='/Music'
+              path='/music'
             />
 
             <CategoryItems 
               src='https://thumbs.dreamstime.com/z/landscape-nature-mountan-alps-rainbow-76824355.jpg'
               text='Sport'
               label='Mystery'
-              path='/Sport'
+              path='/sport'
             />
 
           </ul>

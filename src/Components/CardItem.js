@@ -1,7 +1,7 @@
 import React from 'react'
 import Web3Modal from "web3modal"
-import { nftmarketaddress } from '../components/templates/config'
-import NFT_MarketPlace from '../components/templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
+import { nftmarketaddress } from './templates/config'
+import NFT_MarketPlace from './templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
 import { Link } from 'react-router-dom';
 import { ethers } from 'ethers'
 import { Button } from 'react-bootstrap';

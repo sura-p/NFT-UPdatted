@@ -6,8 +6,8 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Web3Modal from "web3modal"
 import '../App.css'
-import { nftmarketaddress } from '../components/templates/config'
-import NFT_MarketPlace from '../components/templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
+import { nftmarketaddress } from './templates/config'
+import NFT_MarketPlace from './templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
 import Button from 'react-bootstrap/Button';
 
 

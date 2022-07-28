@@ -2,10 +2,10 @@ import { ethers } from 'ethers'
 import React from 'react'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import Home from '../components/templates/Home'
+// import Home from '../components/templates/Home'
  
-import {nftmarketaddress} from '../components/templates/config'
-import NFT_MarketPlace from '../components/templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
+import {nftmarketaddress} from './templates/config'
+import NFT_MarketPlace from './templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
 import Cards from './Cards'
 
 function MyDigitalAsset() {

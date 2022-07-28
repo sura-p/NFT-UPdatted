@@ -1,15 +1,15 @@
 import React, { useEffect} from 'react'
-import NFT_MarketPlace from '../components/templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
+import NFT_MarketPlace from './templates/artifacts/contracts/NFT_MarketPlace.sol/NFT_MarketPlace.json'
 import { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { ethers } from "ethers";
-import { nftmarketaddress} from '../components/templates/config'
+import { nftmarketaddress} from './templates/config'
 import { create as ipfsHttpClient } from 'ipfs-http-client'
 import "./Forms.css"
 import "./Cards.css"
-import Created_Nfts from '../components/templates/Created_Nfts';
-import Sold_Nfts from '../components/templates/Sold_Nfts';
+import Created_Nfts from './templates/Created_Nfts';
+import Sold_Nfts from './templates/Sold_Nfts';
 const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0')
 
  function Forms() {
